@@ -66,8 +66,8 @@ public class Config {
     }
 
     /**
-     * Get the GetAverageGradeUseCase object.
-     * @return GetAverageGradeUseCase object.
+     * Get the GetTopGradeUseCase object.
+     * @return GetTopGradeUseCase object.
      */
     public GetTopGradeUseCase getTopGradeUseCase() {
         return new GetTopGradeUseCase(gradeDataBase);
